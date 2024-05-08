@@ -1,0 +1,121 @@
+.dialog {
+    background-color: rgba(0, 0, 0, 0.639);
+    align-content: center;
+    overflow: visible;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    position: fixed;
+    z-index: 1000;
+    display: block;
+    height: 100vh;
+    width: 100vw;
+    margin: 0 auto;
+}
+
+.dialog-content {
+    border: 1px solid rgb(16, 16, 16);
+    background-color: darkred;
+    margin-left: 20px;
+    margin-right: 40px;
+    padding: 20px;
+    color: white;
+}
+
+.dialog-close {
+    color: whitesmoke;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 50%;
+    font-weight: 900;
+    font-size: larger;
+    cursor: pointer;
+    float: right;
+}
+
+.dialog-close:active {
+    background-color: rgb(54, 2, 2);
+    color: lightgray;
+}
+
+.dialog-content img {
+    display: flex;
+    border-radius: 8px;
+    width: 190px;
+}
+
+.dialog-content {
+    border: 1px solid rgb(16, 16, 16);
+    background-color: rgb(119, 8, 8);
+    color: white;
+    margin: .5% auto;
+    padding-top: 10px;
+    padding-left: 2%;
+    padding-right: 2%;
+    width: 700px;
+}
+
+.slide-in-blurred-left {
+    animation: slide-in-blurred-left 0.8s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+}
+
+@keyframes slide-in-blurred-left {
+    0% {
+        transform: translateX(-1000px) scaleX(2.5) scaleY(0.2);
+        transform-origin: 100% 50%;
+        filter: blur(40px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0) scaleY(1) scaleX(1);
+        transform-origin: 50% 50%;
+        filter: blur(0);
+        opacity: 1;
+    }
+}
+
+
+/* 
+
+
+.dialog-video-content {
+    text-align: center;
+    display: block;
+}
+
+.dialog-content h1 {
+    color: white;
+}
+
+.dialog-content img {
+    border-radius: 8px;
+    width: 190px;
+}
+
+.dialog-content-img {
+    margin-right: 0px;
+    display: inline;
+    width: 1fr;
+}
+
+.dialog-content-description {
+    display: inline;
+    color: white;
+    width: 2fr;
+}
+
+.dialog-content-sinopsis {
+    text-align: justify;
+    line-height: 3rem;
+    display: inline;
+}
+
+.dialog-close {
+    float: right;
+    color: black;
+    cursor: pointer;
+    font-weight: 700;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 50%;
+    background-color: lightgray;
+} */

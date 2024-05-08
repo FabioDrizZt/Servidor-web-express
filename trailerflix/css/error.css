@@ -1,0 +1,10 @@
+.error {
+    margin-top: 40px;
+    padding: 40px;
+}
+
+.error p {
+    color: rgb(247, 247, 250) !important;
+    font-size: 24px;
+    letter-spacing: 2px;
+}

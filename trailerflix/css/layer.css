@@ -1,0 +1,49 @@
+.layer {
+    position: absolute;
+    margin-left: -20px;
+    margin-top: -10px;
+    display: block;
+    width: 100vw;
+    height: 8vh;
+    background: linear-gradient(360deg, rgba(0, 0, 0, 0.042), rgba(0, 0, 0, 0.993));
+    z-index: 1;
+}
+/* 
+.layer-header h2 {
+    font-size: 100px;
+    color: white;
+    padding-left: 70%;
+    padding-top: 10%;
+}
+
+.layer-header {
+    margin-top: -20px;
+    margin-left: -20px;
+    position: absolute;
+    display: block;
+    width: 100vw;
+    height: 44vh;
+    background: linear-gradient(340deg, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.988));
+    z-index: 1;
+}
+
+.video-header {
+    margin-top: -20px;
+    margin-left: -20px;
+    position: static;
+    display: block;
+    width: 100vw;
+    height: 44vh;
+    background-color: darkviolet;
+    z-index: 0;
+    box-shadow: 6px 10px 30px black;
+}
+
+.video-header img {
+    height: 44vh;
+    width: 100vw;
+    object-fit: cover;
+    object-position: top;
+    filter: brightness(100%) contrast(120%)
+}
+ */
